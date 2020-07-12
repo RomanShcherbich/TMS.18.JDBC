@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Modern Visual AI Approach Suite for AppliFashion V1">
+    <parameter name="URL" value="https://demo.applitools.com/gridHackathonV1.html"/>
+    <test name="Modern Visual AI Approach">
+        <classes>
+            <class name="unit.PropertyTest"/>
+        </classes>
+    </test>
+</suite>
